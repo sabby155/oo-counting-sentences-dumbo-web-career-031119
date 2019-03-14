@@ -20,7 +20,7 @@ class String
       array.each_with_index do |char, i|
         if char[i] == char[i+1]
           next
-          count += 1 if char == "." | char == "?"| char == "."
+          count += 1 if char == "." | char == "?"| char == "!"
         end  
       end  
   end
