@@ -19,7 +19,7 @@ class String
       array = self.split("")
       array.each_with_index do |char, i|
         unless char[i] == char[i+1]
-          count += 1 if char == "." | char == "?"| char == "!"
+          count += 1 if char == "."
         end  
       end  
   end
