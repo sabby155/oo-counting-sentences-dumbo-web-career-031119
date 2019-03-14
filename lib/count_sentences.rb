@@ -15,13 +15,6 @@ class String
   end
 
   def count_sentences
-      count = 0
-      array = self.split("")
-      array.each_with_index do |char, i|
-        unless char[i] == char[i+1]
-          count += 1 if char == "." | char == "?"| char == "!"
-        end 
-      end 
-      count
+    
   end
 end
