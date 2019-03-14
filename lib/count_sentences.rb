@@ -16,9 +16,8 @@ class String
 
   def count_sentences
     arr_of_str = self.split
-    count = 0
-    arr_of_str.map do |word|
-      word.include()
+    arr_of_str.count do |word|
+       word.include(".", "!")
     end   
   end
 end
